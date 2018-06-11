@@ -82,6 +82,9 @@
 								<li class="tsd-kind-function tsd-parent-kind-external-module tsd-has-type-parameter"><a href="_index_.html#bindarray" class="tsd-kind-icon">bind<wbr>Array</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-external-module tsd-has-type-parameter"><a href="_index_.html#bindlinq" class="tsd-kind-icon">bind<wbr>Linq</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_index_.html#initializelinq" class="tsd-kind-icon">initialize<wbr>Linq</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_index_.html#isasyncenumerable" class="tsd-kind-icon">is<wbr>Async<wbr>Enumerable</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_index_.html#isenumerable" class="tsd-kind-icon">is<wbr>Enumerable</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_index_.html#isparallelenumerable" class="tsd-kind-icon">is<wbr>Parallel<wbr>Enumerable</a></li>
 							</ul>
 						</section>
 					</div>
@@ -99,7 +102,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/arogozine/LinqToTypeScript/blob/cb0219b/src/index.ts#L38">index.ts:38</a></li>
+									<li>Defined in <a href="https://github.com/arogozine/LinqToTypeScript/blob/1001f23/src/index.ts#L137">index.ts:137</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -139,7 +142,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/arogozine/LinqToTypeScript/blob/cb0219b/src/index.ts#L24">index.ts:24</a></li>
+									<li>Defined in <a href="https://github.com/arogozine/LinqToTypeScript/blob/1001f23/src/index.ts#L123">index.ts:123</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -179,7 +182,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/arogozine/LinqToTypeScript/blob/cb0219b/src/index.ts#L50">index.ts:50</a></li>
+									<li>Defined in <a href="https://github.com/arogozine/LinqToTypeScript/blob/1001f23/src/index.ts#L149">index.ts:149</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -188,6 +191,99 @@
 								</div>
 							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
+					<a name="isasyncenumerable" class="tsd-anchor"></a>
+					<h3>is<wbr>Async<wbr>Enumerable</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
+						<li class="tsd-signature tsd-kind-icon">is<wbr>Async<wbr>Enumerable<span class="tsd-signature-symbol">(</span>source<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/arogozine/LinqToTypeScript/blob/1001f23/src/index.ts#L59">index.ts:59</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Determine if a type is IAsyncEnumerable</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>source: <span class="tsd-signature-type">any</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Any Value</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
+					<a name="isenumerable" class="tsd-anchor"></a>
+					<h3>is<wbr>Enumerable</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
+						<li class="tsd-signature tsd-kind-icon">is<wbr>Enumerable<span class="tsd-signature-symbol">(</span>source<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/arogozine/LinqToTypeScript/blob/1001f23/src/index.ts#L89">index.ts:89</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Determine if a source is a IEnumerable</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>source: <span class="tsd-signature-type">any</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Any Value</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
+					<a name="isparallelenumerable" class="tsd-anchor"></a>
+					<h3>is<wbr>Parallel<wbr>Enumerable</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
+						<li class="tsd-signature tsd-kind-icon">is<wbr>Parallel<wbr>Enumerable<span class="tsd-signature-symbol">(</span>source<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/arogozine/LinqToTypeScript/blob/1001f23/src/index.ts#L29">index.ts:29</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Determine if the source is IParallelEnumerable</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>source: <span class="tsd-signature-type">any</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Any value</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -217,6 +313,15 @@
 					</li>
 					<li class=" tsd-kind-function tsd-parent-kind-external-module">
 						<a href="_index_.html#initializelinq" class="tsd-kind-icon">initialize<wbr>Linq</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-external-module">
+						<a href="_index_.html#isasyncenumerable" class="tsd-kind-icon">is<wbr>Async<wbr>Enumerable</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-external-module">
+						<a href="_index_.html#isenumerable" class="tsd-kind-icon">is<wbr>Enumerable</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-external-module">
+						<a href="_index_.html#isparallelenumerable" class="tsd-kind-icon">is<wbr>Parallel<wbr>Enumerable</a>
 					</li>
 				</ul>
 			</nav>
